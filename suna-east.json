@@ -1,0 +1,13 @@
+{
+  "name": "suna-east",
+  "utterances": {
+    "en": [
+      "Suna East",
+      "6"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

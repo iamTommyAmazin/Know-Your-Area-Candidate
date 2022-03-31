@@ -1,0 +1,17 @@
+{
+  "name": "governer",
+  "utterances": {
+    "en": [
+      "governor",
+      "2",
+      "two",
+      "Gavana",
+      "governador",
+      "gafana"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

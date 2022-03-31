@@ -1,0 +1,13 @@
+{
+  "name": "kuria-east",
+  "utterances": {
+    "en": [
+      "Kuria East",
+      "2"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "position": {
+        "x": -225,
+        "y": -90
+      }
+    },
+    {
+      "id": "3839c8f7c0",
+      "position": {
+        "x": 445,
+        "y": 140
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "3839c8f7c0",
+      "sourcePort": "out0",
+      "target": "entry",
+      "points": [
+        {
+          "x": 645,
+          "y": 214
+        },
+        {
+          "x": -224,
+          "y": -72
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out8",
+      "target": "3839c8f7c0",
+      "points": [
+        {
+          "x": -25,
+          "y": 320
+        },
+        {
+          "x": 445,
+          "y": 157
+        }
+      ]
+    }
+  ]
+}

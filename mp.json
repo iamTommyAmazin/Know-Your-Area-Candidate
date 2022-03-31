@@ -1,0 +1,17 @@
+{
+  "name": "mp",
+  "utterances": {
+    "en": [
+      "MP",
+      "3",
+      "Three",
+      "Member of Parliament",
+      "M.P",
+      "Members of National Assembly"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

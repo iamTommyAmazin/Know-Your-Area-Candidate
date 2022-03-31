@@ -1,0 +1,82 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'awendo'",
+          "conditionType": "raw",
+          "node": "Awendo-constituency.flow.json#entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'kuria-east'",
+          "conditionType": "raw",
+          "node": "Kuria-east-constituency.flow.json#entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'kuria-west'",
+          "conditionType": "raw",
+          "node": "Kuria-west-constituency.flow.json#entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'nyatike'",
+          "conditionType": "raw",
+          "node": "Nyatike-constituency.flow.json#entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'rongo'",
+          "conditionType": "intent",
+          "node": "Rongo-constituency.flow.json#entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'suna-east'",
+          "conditionType": "raw",
+          "node": "Suna-east-constituency.flow.json#entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'suna-west'",
+          "conditionType": "raw",
+          "node": "Suna-west-constituency.flow.json#entry"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'uriri'",
+          "conditionType": "raw",
+          "node": "Uriri-constituency.flow.json#entry"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "error_handle"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-percSW"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"constituencychoice\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "3839c8f7c0",
+      "name": "error_handle",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-l-HmXB"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

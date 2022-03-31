@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dropdown-FIg58G",
+    "formData": {
+      "buttonText$en": "Choose the candidate",
+      "placeholderText$en": "Select a choice",
+      "displayInKeyboard$en": false,
+      "markdown$en": true,
+      "typing$en": true,
+      "options$en": [
+        {
+          "label": "Send 1 For Presidential Candidate",
+          "value": "Send 1 For Presidential Candidate"
+        },
+        {
+          "label": "Send 2 For Gubernatorial Candidate",
+          "value": "Send 2 For Gubernatorial Candidate"
+        },
+        {
+          "label": "Send 3 For Senate Candidate",
+          "value": "Send 3 For Senate Candidate"
+        },
+        {
+          "label": "Send 4 For MP Candidate",
+          "value": "Send 4 For MP Candidate"
+        },
+        {
+          "label": "Send 5 for Woman County Rep ",
+          "value": "Send 5 for Woman County Rep"
+        }
+      ],
+      "message$en": "<b> 2022 KENYAN GENERAL ELECTION</b>\n<b> MIGORI COUNTY</b>\n\nFind out about your candidates:\n",
+      "allowMultiple$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-01-14T13:52:21.250Z",
+    "modifiedOn": "2022-01-14T13:56:10.666Z"
+  },
+  {
+    "id": "dropdown-zUsUct",
+    "formData": {
+      "buttonText$en": "Send",
+      "placeholderText$en": "Choose your constituency:",
+      "displayInKeyboard$en": true,
+      "markdown$en": true,
+      "typing$en": true,
+      "message$en": "<b> 2022 KENYAN GENERAL ELECTION</b>\n<b> MIGORI COUNTY</b>",
+      "options$en": [
+        {
+          "label": "Awendo",
+          "value": "Awendo"
+        },
+        {
+          "label": "Kuria East",
+          "value": "Kuria East"
+        },
+        {
+          "label": "Kuria West",
+          "value": "Kuria West"
+        },
+        {
+          "label": "Nyatike",
+          "value": "Nyatike"
+        },
+        {
+          "label": "Rongo",
+          "value": "Rongo"
+        },
+        {
+          "label": "Suna East",
+          "value": "Suna East"
+        },
+        {
+          "label": "Suna West",
+          "value": "Suna West"
+        },
+        {
+          "label": "Uriri",
+          "value": "Uriri"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-23T17:15:50.217Z",
+    "modifiedOn": "2022-02-23T17:22:11.690Z"
+  }
+]

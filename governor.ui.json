@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "ae7b3a8fc0",
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "dead60d967",
+      "position": {
+        "x": 468,
+        "y": 189
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "ae7b3a8fc0",
+      "sourcePort": "out0",
+      "target": "dead60d967",
+      "points": [
+        {
+          "x": 300,
+          "y": 144
+        },
+        {
+          "x": 469,
+          "y": 207
+        }
+      ]
+    }
+  ]
+}

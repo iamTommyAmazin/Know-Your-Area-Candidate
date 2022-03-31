@@ -1,0 +1,84 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "4d29be867a",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'president'",
+          "conditionType": "raw",
+          "node": "president.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'governer'",
+          "conditionType": "raw",
+          "node": "governor.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'senator'",
+          "conditionType": "raw",
+          "node": "senator.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'women-representative'",
+          "conditionType": "raw",
+          "node": "women-rep.flow.json"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'mp'",
+          "conditionType": "raw",
+          "node": "mp_nyatike"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "error_handle"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-KiT3h7"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "4fbd752882",
+      "name": "error_handle",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-l-HmXB"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2208a75c92",
+      "name": "mp_nyatike",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_kTnZR",
+        "say #!builtin_text-NMHZxI",
+        "say #!builtin_text-_w-Dkb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "triggers": [],
+  "description": "",
+  "nodes": [
+    {
+      "id": "ae7b3a8fc0",
+      "name": "entry",
+      "onEnter": [],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "governor_node"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "dead60d967",
+      "name": "governor_node",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Ugm6rR"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

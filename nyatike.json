@@ -1,0 +1,13 @@
+{
+  "name": "nyatike",
+  "utterances": {
+    "en": [
+      "Nyatike",
+      "4"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

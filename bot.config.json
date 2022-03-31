@@ -1,0 +1,60 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {},
+  "$schema": "../../bot.config.schema.json",
+  "description": "",
+  "active": true,
+  "version": "12.26.6",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_audio",
+      "builtin_card",
+      "builtin_carousel",
+      "dropdown",
+      "builtin_file",
+      "builtin_image",
+      "builtin_location",
+      "builtin_single-choice",
+      "builtin_text",
+      "builtin_video"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "know-your-area-candidate",
+  "name": "Know Your Area Candidate (know-your-area-candidate)",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2022-02-02T09:06:08.642Z",
+      "promoted_by": "system"
+    }
+  },
+  "messaging": {
+    "id": "cee9252d-f64a-402d-85fc-e97812e0ab75",
+    "token": "400ba44f-5723-4b90-8438-6fc6c9015d4d.kgtUHDqe56yGnvCW6pXLo181IsL5vxRFO8krzyWMsytBxm5LzVQ3NB3iJFyDP0zgkJpNyqnLuGTWeqf7BtbMr85v",
+    "channels": {
+      "smooch": {
+        "enabled": true,
+        "keyId": "app_61e186a9b3aa3500ea56fe50",
+        "secret": "bThq_dp4ma1KXtNHMxECfOZfJvna_4O2xpp1n4ArsmqncW9Ktk-eQFnok0osp-Xtui8S-voGqqByR5YOm2rBGQ"
+      }
+    }
+  }
+}

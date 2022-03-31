@@ -1,0 +1,123 @@
+[
+  {
+    "id": "builtin_text-8yU_fD",
+    "formData": {
+      "text$en": "<b> 2022 KENYAN GENERAL ELECTION</b>\n<b> MIGORI COUNTY</b>\n\nFind out about your candidates:\n\nSend 1 For Presidential Candidate\n\nSend 2 For Gubernatorial Candidate\n\nSend 3 For Senate Candidate\n\nSend 4 For MP Candidate\n\nSend 5 for Woman County Rep \n",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-01-14T13:38:42.757Z",
+    "modifiedOn": "2022-01-14T13:47:16.255Z"
+  },
+  {
+    "id": "builtin_text-Ugm6rR",
+    "formData": {
+      "text$en": "Name: Raila Odinga\nParty: ODM \nWebsite: https://odm.co.ke/\n\n\nName: William Samoe Ruto\nParty: UDA\nWebsite: https://uda.ke/site/\nFacbook page:........\n\n\nName: MA;LMA\nParty......KCNKLCNK\nWebsite.....MC AKC \nFacbook page:........ CJK\n\n",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-01-14T14:25:29.489Z",
+    "modifiedOn": "2022-01-14T14:33:45.177Z"
+  },
+  {
+    "id": "builtin_text-_kTnZR",
+    "formData": {
+      "text$en": "Name: ....\nParty......\nWebsite.....\nFacbook page:........\n\nName: ....\nParty......\nWebsite.....\nFacbook page:........\n\nName: ....\nParty......\nWebsite.....\nFacbook page:........\n",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-01-14T14:34:40.784Z",
+    "modifiedOn": "2022-01-14T14:34:40.784Z"
+  },
+  {
+    "id": "builtin_text-pmPCNm",
+    "formData": {
+      "text$en": "Hello there\n",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-01-14T14:48:58.173Z",
+    "modifiedOn": "2022-01-14T14:48:58.173Z"
+  },
+  {
+    "id": "builtin_text-KiT3h7",
+    "formData": {
+      "text$en": "<b> {{user.constituencychoice}} Constituency </b>\nSelect The Area Candidate You Want to View:\n1. Presidential Candidate\n2. Gubernatorial Candidate\n3. Senate Candidate\n4. Member of Parliament Candidate\n5. Women County Representative",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-02T09:54:39.468Z",
+    "modifiedOn": "2022-03-31T09:03:02.363Z"
+  },
+  {
+    "id": "builtin_text-l-HmXB",
+    "formData": {
+      "text$en": "Invalid option choose again!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-02T09:55:43.518Z",
+    "modifiedOn": "2022-02-23T18:12:23.574Z"
+  },
+  {
+    "id": "builtin_text-percSW",
+    "formData": {
+      "text$en": "<b> 2022 KENYAN GENERAL ELECTION</b>\n<b> MIGORI COUNTY</b>\n\nSelect your constituency:\n1. Awendo\n2. Kuria East\n3. Kuria West\n4. Nyatike\n5. Rongo\n6. Suna East\n7. Suna West\n8. Uriri",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-23T17:09:46.948Z",
+    "modifiedOn": "2022-03-28T21:10:00.078Z"
+  },
+  {
+    "id": "builtin_text-VHIqG9",
+    "formData": {
+      "text$en": "<b> 2022 KENYAN GENERAL ELECTION</b>\n<b> MIGORI COUNTY</b>",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-23T17:10:34.850Z",
+    "modifiedOn": "2022-02-23T17:10:34.850Z"
+  },
+  {
+    "id": "builtin_text-NMHZxI",
+    "formData": {
+      "text$en": "Your Vote your Choice! Choose wisely!!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-23T18:22:21.212Z",
+    "modifiedOn": "2022-02-23T18:34:59.542Z"
+  },
+  {
+    "id": "builtin_text-_w-Dkb",
+    "formData": {
+      "text$en": "You have gone back to the main menu.",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-02-23T18:24:57.124Z",
+    "modifiedOn": "2022-02-23T18:24:57.124Z"
+  },
+  {
+    "id": "builtin_text-Qb1Zhu",
+    "formData": {
+      "text$en": "<b> Awendo Constituency </b>\nSelect The Area Candidate You Want to View:\n1. Presidential Candidate\n2. Gubernatorial Candidate\n3. Senate Candidate\n4. Member of Parliament Candidate\n5. Women County Representative",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-03-31T08:54:03.044Z",
+    "modifiedOn": "2022-03-31T08:54:03.044Z"
+  }
+]

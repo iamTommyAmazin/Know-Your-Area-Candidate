@@ -1,0 +1,38 @@
+[
+  {
+    "id": "builtin_single-choice-3ACxQr",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Send 1 For presidential Candidate",
+          "value": "Send 1 For presidential Candidate"
+        },
+        {
+          "title": "Send 2 For Gubernatorial Candidate",
+          "value": "Send 2 For Gubernatorial Candidate"
+        },
+        {
+          "title": "Send 3 For Senate Candidate",
+          "value": "Send 3 For Senate Candidate"
+        },
+        {
+          "title": "Send 4 For Mp Candidate",
+          "value": "Send 4 For Mp Candidate"
+        },
+        {
+          "title": "Send 5 for Woman County representative",
+          "value": "Send 5 for Woman County representative "
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Select The Area Candidate You Want to View",
+      "isDropdown$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-01-14T14:08:47.077Z",
+    "modifiedOn": "2022-01-14T14:08:47.077Z"
+  }
+]

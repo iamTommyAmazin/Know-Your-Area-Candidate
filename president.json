@@ -1,0 +1,27 @@
+{
+  "name": "president",
+  "utterances": {
+    "en": [
+      "President",
+      "1",
+      "One",
+      "Presi",
+      "Prezzo",
+      "commander-in-chief",
+      "Presidentt",
+      "president-in-office",
+      "presidential",
+      "presidents",
+      "presidency",
+      "presidente",
+      "président",
+      "przewodniczący",
+      "Raisi",
+      "Raisi wa nchi"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

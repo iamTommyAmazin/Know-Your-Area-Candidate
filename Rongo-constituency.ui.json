@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "b812e06096",
+      "position": {
+        "x": -395,
+        "y": -110
+      }
+    },
+    {
+      "id": "837d57753d",
+      "position": {
+        "x": 10,
+        "y": 195
+      }
+    },
+    {
+      "id": "afbcaa9785",
+      "position": {
+        "x": 20,
+        "y": -170
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "837d57753d",
+      "sourcePort": "out0",
+      "target": "b812e06096",
+      "points": [
+        {
+          "x": 210,
+          "y": 269
+        },
+        {
+          "x": -394,
+          "y": -93
+        }
+      ]
+    },
+    {
+      "source": "afbcaa9785",
+      "sourcePort": "out0",
+      "target": "b812e06096",
+      "points": [
+        {
+          "x": 220,
+          "y": 71
+        },
+        {
+          "x": -394,
+          "y": -93
+        }
+      ]
+    },
+    {
+      "source": "b812e06096",
+      "sourcePort": "out5",
+      "target": "837d57753d",
+      "points": [
+        {
+          "x": -195,
+          "y": 197
+        },
+        {
+          "x": 10,
+          "y": 212
+        }
+      ]
+    },
+    {
+      "source": "b812e06096",
+      "sourcePort": "out4",
+      "target": "afbcaa9785",
+      "points": [
+        {
+          "x": -195,
+          "y": 166
+        },
+        {
+          "x": 20,
+          "y": -153
+        }
+      ]
+    }
+  ]
+}

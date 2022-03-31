@@ -1,0 +1,20 @@
+{
+  "name": "senator",
+  "utterances": {
+    "en": [
+      "Senator",
+      "Seneta",
+      "3",
+      "Three",
+      "sen.",
+      "sénateur",
+      "senators",
+      "senate",
+      "assemblyman"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}
